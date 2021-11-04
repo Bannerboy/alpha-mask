@@ -6,6 +6,8 @@ It accepts `img` tags or `div` with background-image as source or mask.
 
 By default, it will replace the content of the source with the masked image, and erase the mask.
 
+[Demo](https://bannerboy.github.io/alpha-mask/)
+
 ## Setup
 
 1. Import the file
