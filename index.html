@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <style>
+      body {
+        background: linear-gradient(
+          45deg,
+          rgba(34, 193, 195, 1) 0%,
+          rgba(253, 187, 45, 1) 100%
+        );
+
+        display: grid;
+        justify-content: center;
+        text-align: center;
+      }
+
+      div#image {
+        background-image: url('image.jpg');
+        width: 300px;
+        height: 250px;
+      }
+
+      div#mask {
+        background-image: url('mask.png');
+        width: 300px;
+        height: 250px;
+      }
+    </style>
+    <script type="module" src="alpha-mask.js"></script>
+    <script type="module" src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- <img id="image" src="image.jpg" /> -->
+    <div id="image"></div>
+    <p>+</p>
+    <!-- <img id="mask" src="mask.png" /> -->
+    <div id="mask"></div>
+    <p>=</p>
+  </body>
+</html>
